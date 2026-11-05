@@ -61,8 +61,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         }
 
         func unsupportedCamera() {
-//            action taken if camera is un able to scan barcodes on device
-            self.errorAlert(title: "Cannot Support Scanning", message: "Your device is un able to scan barcodes.")
+//            action taken if camera is unable to scan barcodes on device
+            self.errorAlert(title: "Cannot Support Scanning", message: "Your device is unable to scan barcodes.")
             captureSession = nil
         }
 
